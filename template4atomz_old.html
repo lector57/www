@@ -1,0 +1,688 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1251">
+<title>ELMIS - Результаты поиска</title>
+<base href="http://www.elmis.by/">
+<meta name="description" content="">
+<meta name="keywords" content="Модернизация,восстановление,реновация,ретрофитинг,станки,ЧПУ,системы ЧПУ,станки с ЧПУ,оборудование,металлорежущее,металлообрабатывающее,поставка станков,поставка оборудования,поставка комплектующих,программное управление,автоматизация,привод,приводы станков,электроприводы,оптические линейки,измерительные устройства,цифровая индикация,программы ЧПУ,программы для станков,PLC-программа,ПМО,разработка ПМО,электроавтоматика,контроллер,промышленный,обрабатывающие центры,токарные,сверлильные,фрезерные,расточные,координатно-расточные,зуборезные,зубообрабатывающие,шлифовальные,комплектация станков,устройства для станков,электрошкаф,сигналообмен,SCADA,гибкий производственный,ГПС,машиностроение,металлообработка,станкостроение,станкостроительный,SINUMERIK,SIMODRIVE,NC-100,NC-110,NC-200,Балт-Систем,ЛИР,Indramat,Индрамат">
+ <style type="text/css">
+<!--
+body,td,th,input,select,textarea{font-family:verdana,tahoma,arial,helvetica,geneva,sans-serif;font-size:8pt}
+a,a:active,a:visited {text-decoration:none;color:#cc0000}
+a:hover {text-decoration:underline}
+p{margin-top:10px;margin-bottom:10px}				  
+p.b1 {margin-top:2px;margin-bottom:4px;}				  
+ul,ol{margin-top:14px;margin-bottom:14px}
+#menu0{position:absolute;left:325px;top:61px;z-index:101;visibility:hidden;width:114px}
+#menu1{position:absolute;left:438px;top:61px;z-index:102;visibility:hidden;width:170px;}
+#menu2{position:absolute;left:526px;top:61px;z-index:103;visibility:hidden;width:130px;}
+#menu3{position:absolute;left:642px;top:61px;z-index:104;visibility:hidden;width:118px;}
+#menu0overs{position:absolute;left:325px;top:61px;z-index:111;visibility:hidden;width:114px}
+#menu1overs{position:absolute;left:438px;top:61px;z-index:112;visibility:hidden;width:170px;}
+#menu2overs{position:absolute;left:526px;top:61px;z-index:113;visibility:hidden;width:130px;}
+#menu3overs{position:absolute;left:642px;top:61px;z-index:114;visibility:hidden;width:118px;}
+.menutop{margin-top:11px;}
+.column {margin-top:0px;margin-bottom:30px;margin-left:10px;margin-right:10px;font-size:7.5pt;line-height:10pt;}
+.colhead {font-weight:bold;color:#cc0000;font-size:7.5pt;line-height:10pt;}
+.headline {font-family:tahoma;margin-top:24px;margin-bottom:0px;margin-left:0px;margin-right:0px;font-size:18pt;color:#000000;font-weight:normal;line-height:18pt}
+.lc {padding-top:0px;padding-bottom:61px;padding-left:10px;padding-right:10px;font-size:7.5pt}
+.mc {margin-top:14px;margin-bottom:10px;margin-left:0px;margin-right:20px;font-size:8pt;line-height:14pt}
+.contexthead {font-size:7.5pt;font-weight:bold;color:#808080;margin-top:3px;margin-bottom:3px;margin-left:5px}
+.contextlinks {font-size:7.5pt;margin-top:2px;margin-bottom:4px;margin-left:0px}
+.footer {color:white;margin-top:5px;margin-bottom:50px;margin-left:10px;margin-right:10px;font-size:7.5pt;line-height:8pt;}
+.bw {font-size:7.5pt;line-height:8pt;}
+.visu {line-height:18px;color:#ffffff;margin-bottom:10px}
+.section{font-size:7.5pt;font-family:tahoma;color:#808080;margin-bottom:0px;margin-left:10px}
+div.h2{font-size:10pt;font-weight:bold;margin-top:24px;margin-bottom:10px;}													   
+div.h2a{font-size:10pt;font-weight:bold;margin-top:0px;margin-bottom:10px;}													   
+img.btop{margin-top:10px;margin-bottom:10px}												
+img.bmore,img.bmore1{margin-top:5px;margin-bottom:0px}												
+div.seealso{margin-bottom:60px}
+div.caption{margin-top:1px;margin-bottom:20px;margin-left:35px;margin-right:30px;font-size:7.5pt;text-align:left;}
+-->
+</style>
+<script language="javascript" type="text/javascript">
+<!--
+
+if (document.images) {
+	img1on = new Image();
+	img1on.src = "art/navi-home-h.gif";
+	img2on = new Image();
+	img2on.src = "art/navi-store-h.gif";
+	img3on = new Image();
+	img3on.src = "art/navi-search-h.gif";
+	img4on = new Image();
+	img4on.src = "art/navi-help-h.gif";
+	
+	img1off = new Image();
+	img1off.src = "art/navi-home.gif";
+	img2off = new Image();
+	img2off.src = "art/navi-store.gif";
+	img3off = new Image();
+	img3off.src = "art/navi-search.gif";
+	img4off = new Image();
+	img4off.src = "art/navi-help.gif";
+}
+
+function imgOn(imgName) {
+	if (document.images) {
+		document[imgName].src = eval(imgName + "on.src");
+	}
+	if (initialized) {
+		clearmenus();
+	}
+}
+
+function imgOff(imgName) {
+	if (document.images) {
+		document[imgName].src = eval(imgName + "off.src");
+	}
+}
+
+window.onerror = null;
+window.defaultStatus = '';
+
+var isFour = (parseInt(navigator.appVersion) > 3);
+
+var initialized = 0;
+var menus = new Array();
+var menustatus = new Array();
+var menuovers = new Array();
+
+function init(){
+	if(isFour) {
+		for (var i=0;i<=3;i++) {
+			menustatus[i] = "closed";
+			if (document.layers) {
+				menuovers[i] = eval("window.document.menu"+i+"overs");
+				menus[i] = eval("window.document.menu"+i);
+				menuovers[i].onmouseout = menuhider;
+			} else {
+				var tmnov = (document.all)?eval("document.all.menu"+i+"overs"):document.getElementById("menu"+i+"overs");
+				var tmn = (document.all)?eval("document.all.menu"+i):document.getElementById("menu"+i);
+				menuovers[i] = tmnov.style;
+				menus[i] = tmn.style;
+				tmnov.onmouseout = menuhider;
+			}
+		}
+	}
+	initialized = true;
+}
+
+function change(Name,Image,No) {
+        if (initialized) {
+			document[Name].src = eval(Image + No + ".src");
+        	var menunumber = parseInt(Name.charAt(7));
+        	if((isFour)&&(No)&&(menustatus[menunumber] == 'closed')) {
+			menuovers[menunumber].visibility = 'visible';
+			menuovers[menunumber].zIndex = '310';
+			menus[menunumber].visibility = 'visible';
+			menus[menunumber].zIndex = '300';
+			menustatus[menunumber] = 'open';
+	        }
+        }
+}
+
+function clearmenus() {
+	if (initialized) {
+		change('imgmenu0','nav_prd',0);
+		change('imgmenu1','nav_srv',0);
+		change('imgmenu2','nav_sup',0);
+		change('imgmenu3','nav_com',0);
+		if(isFour) {
+			for(i=0; i<menus.length; i++) {
+				if(menustatus[i] == 'open') {
+					menuovers[i].visibility = 'hidden';
+					menuovers[i].zIndex = '110';
+					menus[i].visibility = 'hidden';
+					menus[i].zIndex = '100';
+					menustatus[i] = 'closed';
+				}
+			}
+		}
+	}
+}
+
+function imagerep(imgname, divname){
+	if(isFour){
+		if (document.layers)
+			eval("window.document."+divname+".document['"+imgname+"'].src="+imgname+"over.src");
+		else
+			eval("document['"+imgname+"'].src="+imgname+"over.src");
+		if(divname=="menu0overs") document["imgmenu0"].src = eval("nav_prd2.src");
+		if(divname=="menu1overs") document["imgmenu1"].src = eval("nav_srv2.src");
+		if(divname=="menu2overs") document["imgmenu2"].src = eval("nav_sup2.src");
+		if(divname=="menu3overs") document["imgmenu3"].src = eval("nav_com2.src");
+	}
+}
+
+function eraseimage(imgname, divname){
+	if(isFour) {
+		if(document.layers)
+			eval("window.document."+divname+".document['"+imgname+"'].src=blank.src");
+		else
+			eval("document['" + imgname + "'].src = blank.src");
+	}
+}
+
+function menuhider(evnt) {
+        if (initialized) {
+                if (window.event) {
+                        if (window.event.toElement.className != "menu")
+				clearmenus();
+                } else if (evnt.target) {
+                        if(evnt.target.id || evnt.target.className != "menu")
+                                clearmenus();
+                }
+        }
+}
+
+if (document.images) {
+
+	var pr1over=new Image();
+	pr1over.src="art/drop-products-1.gif";
+	var pr2over=new Image();
+	pr2over.src="art/drop-products-2.gif";
+	var pr3over=new Image();
+	pr3over.src="art/drop-products-3.gif";
+	var pr4over=new Image();
+	pr4over.src="art/drop-products-4.gif";
+	var pr5over=new Image();
+	pr5over.src="art/drop-products-5.gif";
+	var pr6over=new Image();
+	pr6over.src="art/drop-products-6.gif";
+	var pr7over=new Image();
+	pr7over.src="art/drop-products-7.gif";
+	var pr8over=new Image();
+	pr8over.src="art/drop-products-8.gif";
+
+	var se1over=new Image();
+	se1over.src="art/drop-services-1.gif";
+	var se2over=new Image();
+	se2over.src="art/drop-services-2.gif";
+	var se3over=new Image();
+	se3over.src="art/drop-services-3.gif";
+	var se4over=new Image();
+	se4over.src="art/drop-services-4.gif";
+	var se5over=new Image();
+	se5over.src="art/drop-services-5.gif";
+	var se6over=new Image();
+	se6over.src="art/drop-services-6.gif";
+	var se7over=new Image();
+	se7over.src="art/drop-services-7.gif";
+	var se8over=new Image();
+	se8over.src="art/drop-services-8.gif";
+
+	var su1over=new Image();
+	su1over.src="art/drop-support-1.gif";
+	var su2over=new Image();
+	su2over.src="art/drop-support-2.gif";
+	var su3over=new Image();
+	su3over.src="art/drop-support-3.gif";
+	var su4over=new Image();
+	su4over.src="art/drop-support-4.gif";
+
+	var co1over=new Image();
+	co1over.src="art/drop-company-1.gif";
+	var co2over=new Image();
+	co2over.src="art/drop-company-2.gif";
+	var co3over=new Image();
+	co3over.src="art/drop-company-3.gif";
+	var co4over=new Image();
+	co4over.src="art/drop-company-4.gif";
+	var co5over=new Image();
+	co5over.src="art/drop-company-5.gif";
+	var co6over=new Image();
+	co6over.src="art/drop-company-6.gif";
+	var co7over=new Image();
+	co7over.src="art/drop-company-7.gif";
+	var co8over=new Image();
+	co8over.src="art/drop-company-8.gif";
+	var co9over=new Image();
+	co9over.src="art/drop-company-9.gif";
+
+	var blank=new Image();
+	blank.src="art/dot.gif";
+
+	nav_prd0=new Image();
+	nav_prd0.src="art/navi-products.gif";
+	nav_prd1=new Image();
+	nav_prd1.src="art/navi-products-h.gif";
+	nav_prd2=new Image();
+	nav_prd2.src="art/navi-products-h1.gif";
+	nav_srv0=new Image();
+	nav_srv0.src="art/navi-services.gif";
+	nav_srv1=new Image();
+	nav_srv1.src="art/navi-services-h.gif";
+	nav_srv2=new Image();
+	nav_srv2.src="art/navi-services-h1.gif";
+	nav_sup0=new Image();
+	nav_sup0.src="art/navi-support.gif";
+	nav_sup1=new Image();
+	nav_sup1.src="art/navi-support-h.gif";
+	nav_sup2=new Image();
+	nav_sup2.src="art/navi-support-h1.gif";
+	nav_com0=new Image();
+	nav_com0.src="art/navi-company.gif";
+	nav_com1=new Image();
+	nav_com1.src="art/navi-company-h.gif";
+	nav_com2=new Image();
+	nav_com2.src="art/navi-company-h1.gif";
+}
+//-->
+</script>
+</head>
+<body bgcolor="#990000" text="#000000" link="#000000" alink="#000000" vlink="#000000" style="margin:0px" topmargin=0 bottommargin=0 rightmargin=0 leftmargin=0 marginwidth=0 marginheight=0 onload="init()"><table border=0 cellpadding=0 cellspacing=0 width="100%" bgcolor="#cc0000"><tr><td>
+<table border=0 cellpadding=0 cellspacing=0 width="780" height="39">
+<tr><td valign="top"><a href="index.php"><img src="art/logo-elmis.gif" width="69" height="17" alt="ELMIS" border="0" hspace="12" vspace="11"></a></td>
+<td align="right" valign="top"><a href="index.php" onmouseover="imgOn('img1')" onmouseout="imgOff('img1')"><img src="art/navi-home.gif" width="123" height="28" alt="Возврат к начальной странице" border="0" name="img1" class="menutop"></a><a href="order.php" onmouseover="imgOn('img2')" onmouseout="imgOff('img2')"><img src="art/navi-store.gif" width="122" height="28" alt="Оформление заказа на товары или услуги" border="0" name="img2"></a><a href="search.php" onmouseover="imgOn('img3')" onmouseout="imgOff('img3')"><img src="art/navi-search.gif" width="122" height="28" alt="Поиск информации на сайте" border="0" name="img3"></a><a href="help.php" onmouseover="imgOn('img4')" onmouseout="imgOff('img4')"><img src="art/navi-help.gif" width="122" height="28" alt="Как пользоваться сайтом" border="0" name="img4"></a><a href="javascript:void(0)" onmouseover="clearmenus()"><img src="art/dot.gif" alt="" width=2 height=28 border=0></a><img src="art/dot.gif" alt="" width=18 height=28 border=0></td></tr></table></td></tr>
+<tr bgcolor="#660000"><td><a href="javascript:void(0)" onmouseover="clearmenus()"><img src="art/dot.gif" alt="" width=780 height=1 border="0"></a></td></tr></table><table border=0 cellpadding=0 cellspacing=0 width="100%" bgcolor="#990000"><tr><td>
+<table border=0 cellpadding=0 cellspacing=0 width="780">
+<tr><td><img src="art/dot.gif" width="184" height="10" alt="" border="0" hspace="69" vspace="5"></td>
+<td valign="top"><a href="javascript:void(0)" onmouseover="clearmenus()"><img src="art/dot.gif" width="2" height="21" alt="" border="0"></a></td>
+<td valign="top" align="right"><img src="art/navi-products.gif" width="114" height="21" alt="Продукция" border="0" name="imgmenu0" USEMAP="#menu0map"><img src="art/navi-services.gif" width="88" height="21" alt="Услуги" border="0" name="imgmenu1" USEMAP="#menu1map"><img src="art/navi-support.gif" width="116" height="21" alt="Поддержка" border="0" name="imgmenu2" USEMAP="#menu2map"><img src="art/navi-company.gif" width="117" height="21" alt="О компании" border="0" name="imgmenu3" USEMAP="#menu3map"><a href="javascript:void(0)" onmouseover="clearmenus()"><img src="art/dot.gif" alt="" width=2 height=21 border=0></a><img src="art/dot.gif" alt="" width=18 height=21 border=0></td></tr></table>
+</td></tr></table>
+
+<table border=0 cellpadding=0 cellspacing=0 width="100%" bgcolor="#fafafa"><tr><td>
+<table border=0 cellpadding=0 cellspacing=0 width="760">
+<tr>
+	<td>&nbsp;</td>
+	<td><div class="headline">Результаты поиска</div><img src="art/dot.gif" alt="" width=470 height=1></td>
+</tr>
+<tr>
+	<td width="270" valign=top align="center"><img src="art/dot.gif" alt="" width=270 height=20><br>
+
+
+
+
+	</td>
+	<td width="490" valign=top rowspan="2"><div class="mc">
+
+<!-- Atomz Search results section.-->
+
+<!-- Show heading and Atomz logo graphic. -->
+<SEARCH-IF-RESULTS>
+<b>Документы <SEARCH-LOWER> - <SEARCH-UPPER> из <SEARCH-TOTAL> по запросу &quot;<SEARCH-QUERY>&quot;</b>:<br>
+</SEARCH-IF-RESULTS>
+<SEARCH-LOGO><br>
+
+<!-- Display Results. -->
+<SEARCH-RESULTS LENGTH=160>
+<SEARCH-LINK><div class="h2"><SEARCH-TITLE LENGTH=160></div></SEARCH-LINK>
+<SEARCH-IF-SHOW-SUMMARIES>
+<SEARCH-IF-CONTEXT LENGTH=240><SEARCH-CONTEXT><br></SEARCH-IF-CONTEXT>
+<SEARCH-LINK><font size="-2"><SEARCH-URL LENGTH=60></font></SEARCH-LINK>&nbsp;<SEARCH-LINK><img src="art/bull-more2.gif" width="11" height="11" alt="" border="0" align="absbottom" class="bmore"></SEARCH-LINK>
+</SEARCH-IF-SHOW-SUMMARIES>
+</SEARCH-RESULTS>
+
+<!-- If no results, show a message. -->
+<SEARCH-IF-NOT-RESULTS><p>
+<b>Извините, документы по запросу &quot;<SEARCH-QUERY>&quot; не обнаружены.</b>
+</SEARCH-IF-NOT-RESULTS>
+<!-- Show By Score, By Date links, Show/Hide Summaries links. -->
+<SEARCH-IF-RESULTS>
+<br>
+<br>
+<SEARCH-IF-SORT-BY-DATE>
+<b><SEARCH-SORT-BY-SCORE COUNT=10>По релевантности</SEARCH-SORT-BY-SCORE></b>
+</SEARCH-IF-SORT-BY-DATE>
+<SEARCH-IF-SORT-BY-SCORE>
+<b><SEARCH-SORT-BY-DATE COUNT=10>По дате обновления</SEARCH-SORT-BY-DATE></b>
+</SEARCH-IF-SORT-BY-SCORE>
+ | <b>
+<SEARCH-IF-SHOW-SUMMARIES>
+<SEARCH-HIDE-SUMMARIES COUNT=20>Скрыть описания</SEARCH-HIDE-SUMMARIES>
+</SEARCH-IF-SHOW-SUMMARIES>   
+<SEARCH-IF-HIDE-SUMMARIES>
+<SEARCH-SHOW-SUMMARIES COUNT=10>Показать описания</SEARCH-SHOW-SUMMARIES>
+</SEARCH-IF-HIDE-SUMMARIES>   
+</b><br>
+</SEARCH-IF-RESULTS>
+
+<!-- Display Prev & Next links. -->
+<SEARCH-IF-RESULTS>
+<SEARCH-IF-PREV-COUNT>
+<b><SEARCH-PREV>Пред. <SEARCH-PREV-COUNT></SEARCH-PREV></b>
+<SEARCH-IF-NEXT-COUNT> | </SEARCH-IF-NEXT-COUNT>
+</SEARCH-IF-PREV-COUNT> 
+<SEARCH-IF-NEXT-COUNT>
+<b><SEARCH-NEXT>След. <SEARCH-NEXT-COUNT></SEARCH-NEXT></b><br>
+</SEARCH-IF-NEXT-COUNT><p>
+</SEARCH-IF-RESULTS>
+
+<!-- Put up the next form.  -->
+<form method="get" action="http://search.atomz.com/search/">
+<SEARCH-IF-NOT-ADVANCED>
+<SEARCH-INPUT-ACCOUNT>
+<SEARCH-INPUT-GALLERY>
+<SEARCH-INPUT-QUERY SIZE=25>
+<input type=submit value="Новый поиск">
+<SEARCH-IF-INPUT-COLLECTIONS>
+<br><SEARCH-INPUT-COLLECTIONS>
+</SEARCH-IF-INPUT-COLLECTIONS>
+</SEARCH-IF-NOT-ADVANCED>
+<SEARCH-IF-ADVANCED>
+<table cellspacing=2 cellpadding=2 border=0>
+<tr><td colspan=4>
+<b>Искать:</b><br>
+<SEARCH-INPUT-QUERY SIZE=35>
+
+<!-- The "Search" button -->
+<input type=submit value="Новый поиск">
+<SEARCH-INPUT-ACCOUNT>
+<SEARCH-INPUT-GALLERY>
+</td></tr>
+<SEARCH-IF-INPUT-COLLECTIONS>
+<!-- Collections -->
+<tr><td>
+<b>в:&nbsp;</b>
+</td><td colspan=4>
+<SEARCH-INPUT-COLLECTIONS>
+</td></tr>
+</SEARCH-IF-INPUT-COLLECTIONS>
+<input type=hidden name="sp-advanced" value=1>
+
+<!-- Allow "any," "all," or "phrase" -->
+<tr><td valign=top>
+<b>По совпадению:&nbsp;</b>
+</td><td colspan=4>
+<SEARCH-INPUT type=radio name="sp-p" value="any">любого&nbsp;слова
+<SEARCH-INPUT type=radio name="sp-p" value="all">всех&nbsp;слов
+<SEARCH-INPUT type=radio name="sp-p" value="phrase">фразы&nbsp;целиком<br>
+<!-- Checkbox enables sound-alike matching -->
+<input type=hidden name="sp-w-control" value=1>
+<SEARCH-INPUT type=checkbox name="sp-w" value="alike">включая&nbsp;похожие&nbsp;слова
+</td></tr>
+
+<!-- Date range section -->
+<tr>
+<td><b>Обновление:</b></td>
+<td colspan=3>
+<SEARCH-INPUT type=radio name="sp-d" value="custom">
+<SEARCH-SELECT name="sp-date-range" size=1>
+<SEARCH-OPTION value=-1>в любое время</SEARCH-OPTION>
+<SEARCH-OPTION value=7>за последнюю неделю</SEARCH-OPTION>
+<SEARCH-OPTION value=14>за две недели</SEARCH-OPTION>
+<SEARCH-OPTION value=30>за месяц</SEARCH-OPTION>
+<SEARCH-OPTION value=60>за два месяца</SEARCH-OPTION>
+<SEARCH-OPTION value=90>за три месяца</SEARCH-OPTION>
+<SEARCH-OPTION value=180>за шесть месяцев</SEARCH-OPTION>
+<SEARCH-OPTION value=365>за год</SEARCH-OPTION>
+<SEARCH-OPTION value=730>за два года</SEARCH-OPTION>
+</SEARCH-SELECT>
+</td></tr>
+<tr><td></td><td rowspan=2>
+<SEARCH-INPUT type=radio name="sp-d" value=specific></td>
+<td align=right>с:</td><td>
+<SEARCH-SELECT name="sp-start-day" size=1>
+<SEARCH-OPTION value=0></SEARCH-OPTION>
+<SEARCH-OPTION value=1>1</SEARCH-OPTION>
+<SEARCH-OPTION value=2>2</SEARCH-OPTION>
+<SEARCH-OPTION value=3>3</SEARCH-OPTION>
+<SEARCH-OPTION value=4>4</SEARCH-OPTION>
+<SEARCH-OPTION value=5>5</SEARCH-OPTION>
+<SEARCH-OPTION value=6>6</SEARCH-OPTION>
+<SEARCH-OPTION value=7>7</SEARCH-OPTION>
+<SEARCH-OPTION value=8>8</SEARCH-OPTION>
+<SEARCH-OPTION value=9>9</SEARCH-OPTION>
+<SEARCH-OPTION value=10>10</SEARCH-OPTION>
+<SEARCH-OPTION value=11>11</SEARCH-OPTION>
+<SEARCH-OPTION value=12>12</SEARCH-OPTION>
+<SEARCH-OPTION value=13>13</SEARCH-OPTION>
+<SEARCH-OPTION value=14>14</SEARCH-OPTION>
+<SEARCH-OPTION value=15>15</SEARCH-OPTION>
+<SEARCH-OPTION value=16>16</SEARCH-OPTION>
+<SEARCH-OPTION value=17>17</SEARCH-OPTION>
+<SEARCH-OPTION value=18>18</SEARCH-OPTION>
+<SEARCH-OPTION value=19>19</SEARCH-OPTION>
+<SEARCH-OPTION value=20>20</SEARCH-OPTION>
+<SEARCH-OPTION value=21>21</SEARCH-OPTION>
+<SEARCH-OPTION value=22>22</SEARCH-OPTION>
+<SEARCH-OPTION value=23>23</SEARCH-OPTION>
+<SEARCH-OPTION value=24>24</SEARCH-OPTION>
+<SEARCH-OPTION value=25>25</SEARCH-OPTION>
+<SEARCH-OPTION value=26>26</SEARCH-OPTION>
+<SEARCH-OPTION value=27>27</SEARCH-OPTION>
+<SEARCH-OPTION value=28>28</SEARCH-OPTION>
+<SEARCH-OPTION value=29>29</SEARCH-OPTION>
+<SEARCH-OPTION value=30>30</SEARCH-OPTION>
+<SEARCH-OPTION value=31>31</SEARCH-OPTION>
+</SEARCH-SELECT>
+<SEARCH-SELECT name="sp-start-month" size=1>
+<SEARCH-OPTION value=0></SEARCH-OPTION>
+<SEARCH-OPTION value=1>января</SEARCH-OPTION>
+<SEARCH-OPTION value=2>февраля</SEARCH-OPTION>
+<SEARCH-OPTION value=3>марта</SEARCH-OPTION>
+<SEARCH-OPTION value=4>апреля</SEARCH-OPTION>
+<SEARCH-OPTION value=5>мая</SEARCH-OPTION>
+<SEARCH-OPTION value=6>июня</SEARCH-OPTION>
+<SEARCH-OPTION value=7>июля</SEARCH-OPTION>
+<SEARCH-OPTION value=8>августа</SEARCH-OPTION>
+<SEARCH-OPTION value=9>сентября</SEARCH-OPTION>
+<SEARCH-OPTION value=10>октября</SEARCH-OPTION>
+<SEARCH-OPTION value=11>ноября</SEARCH-OPTION>
+<SEARCH-OPTION value=12>декабря</SEARCH-OPTION>
+</SEARCH-SELECT>
+<SEARCH-INPUT size=4 name="sp-start-year">
+</td></tr>
+<tr><td></td>
+<td align=right>по:</td><td>
+<SEARCH-SELECT name="sp-end-day" size=1>
+<SEARCH-OPTION value=0></SEARCH-OPTION>
+<SEARCH-OPTION value=1>1</SEARCH-OPTION>
+<SEARCH-OPTION value=2>2</SEARCH-OPTION>
+<SEARCH-OPTION value=3>3</SEARCH-OPTION>
+<SEARCH-OPTION value=4>4</SEARCH-OPTION>
+<SEARCH-OPTION value=5>5</SEARCH-OPTION>
+<SEARCH-OPTION value=6>6</SEARCH-OPTION>
+<SEARCH-OPTION value=7>7</SEARCH-OPTION>
+<SEARCH-OPTION value=8>8</SEARCH-OPTION>
+<SEARCH-OPTION value=9>9</SEARCH-OPTION>
+<SEARCH-OPTION value=10>10</SEARCH-OPTION>
+<SEARCH-OPTION value=11>11</SEARCH-OPTION>
+<SEARCH-OPTION value=12>12</SEARCH-OPTION>
+<SEARCH-OPTION value=13>13</SEARCH-OPTION>
+<SEARCH-OPTION value=14>14</SEARCH-OPTION>
+<SEARCH-OPTION value=15>15</SEARCH-OPTION>
+<SEARCH-OPTION value=16>16</SEARCH-OPTION>
+<SEARCH-OPTION value=17>17</SEARCH-OPTION>
+<SEARCH-OPTION value=18>18</SEARCH-OPTION>
+<SEARCH-OPTION value=19>19</SEARCH-OPTION>
+<SEARCH-OPTION value=20>20</SEARCH-OPTION>
+<SEARCH-OPTION value=21>21</SEARCH-OPTION>
+<SEARCH-OPTION value=22>22</SEARCH-OPTION>
+<SEARCH-OPTION value=23>23</SEARCH-OPTION>
+<SEARCH-OPTION value=24>24</SEARCH-OPTION>
+<SEARCH-OPTION value=25>25</SEARCH-OPTION>
+<SEARCH-OPTION value=26>26</SEARCH-OPTION>
+<SEARCH-OPTION value=27>27</SEARCH-OPTION>
+<SEARCH-OPTION value=28>28</SEARCH-OPTION>
+<SEARCH-OPTION value=29>29</SEARCH-OPTION>
+<SEARCH-OPTION value=30>30</SEARCH-OPTION>
+<SEARCH-OPTION value=31>31</SEARCH-OPTION>
+</SEARCH-SELECT>
+<SEARCH-SELECT name="sp-end-month" size=1>
+<SEARCH-OPTION value=0></SEARCH-OPTION>
+<SEARCH-OPTION value=1>января</SEARCH-OPTION>
+<SEARCH-OPTION value=2>февраля</SEARCH-OPTION>
+<SEARCH-OPTION value=3>марта</SEARCH-OPTION>
+<SEARCH-OPTION value=4>апреля</SEARCH-OPTION>
+<SEARCH-OPTION value=5>мая</SEARCH-OPTION>
+<SEARCH-OPTION value=6>июня</SEARCH-OPTION>
+<SEARCH-OPTION value=7>июля</SEARCH-OPTION>
+<SEARCH-OPTION value=8>августа</SEARCH-OPTION>
+<SEARCH-OPTION value=9>сентября</SEARCH-OPTION>
+<SEARCH-OPTION value=10>октября</SEARCH-OPTION>
+<SEARCH-OPTION value=11>ноября</SEARCH-OPTION>
+<SEARCH-OPTION value=12>декабря</SEARCH-OPTION>
+</SEARCH-SELECT>
+<SEARCH-INPUT size=4 name="sp-end-year">
+</td></tr>
+<!-- List box selects the search field -->
+<tr><td valign=top>
+<b>Область поиска:&nbsp;</b>
+</td><td colspan=4><SEARCH-SELECT name="sp-x" size=1>
+<SEARCH-OPTION value="any">везде</SEARCH-OPTION>
+<SEARCH-OPTION value="title">заголовки&nbsp;документов</SEARCH-OPTION>
+<SEARCH-OPTION value="desc">описания&nbsp;документов</SEARCH-OPTION>
+<SEARCH-OPTION value="keys">ключевые&nbsp;слова</SEARCH-OPTION>
+<SEARCH-OPTION value="body">текст&nbsp;документов</SEARCH-OPTION>
+<SEARCH-OPTION value="alt">изображения</SEARCH-OPTION>
+<SEARCH-OPTION value="url">URL</SEARCH-OPTION>
+</SEARCH-SELECT></td></tr>
+<!-- List box selects number of results to show per page -->
+<tr><td valign=top>
+<b>Отображать:</b>
+</td><td colspan=4><SEARCH-SELECT name="sp-c" size=1>
+<SEARCH-OPTION value=5>5</SEARCH-OPTION>
+<SEARCH-OPTION value=10>10</SEARCH-OPTION>
+<SEARCH-OPTION value=25>25</SEARCH-OPTION>
+<SEARCH-OPTION value=50>50</SEARCH-OPTION>
+<SEARCH-OPTION value=100>100</SEARCH-OPTION>
+</SEARCH-SELECT>&nbsp;результатов&nbsp;
+<!-- Show or hide summaries in search results -->
+<SEARCH-SELECT name="sp-m" size=1>
+<SEARCH-OPTION value=1>с описаниями</SEARCH-OPTION>
+<SEARCH-OPTION value=0>без описаний</SEARCH-OPTION>
+</SEARCH-SELECT><br></td></tr>
+<!-- Sort results by score or by date -->
+<tr><td valign=top>
+<b>Сортировать&nbsp;по:&nbsp;</b>
+</td><td colspan=4><SEARCH-SELECT name="sp-s" size=1>
+<SEARCH-OPTION value=0>релевантности</SEARCH-OPTION>
+<SEARCH-OPTION value=1>дате обновления</SEARCH-OPTION>
+</SEARCH-SELECT></td></tr>
+</table>
+</SEARCH-IF-ADVANCED>
+</form>
+<br>
+<br>
+</div>
+<a href="#top"><img src="art/bull-top3.gif" width="17" height="17" alt="к началу страницы" border="0" align="right" class="btop"></a>
+</td>
+
+</tr>
+<tr>
+<td width="270" valign=bottom align="center">
+</td></tr></table>
+</td></tr></table>
+
+<table border=0 cellpadding=0 cellspacing=0 width="100%" bgcolor="#cc0000">
+<tr>
+	<td><img src="art/dot.gif" alt="" width=1 height=12></td>
+</tr>
+</table>
+
+<table border=0 cellpadding=0 cellspacing=0 width="100%" bgcolor="#990000"><tr><td>
+<table border=0 cellpadding=0 cellspacing=0 width="780">
+<tr>
+	<td valign="top"><div class="footer">&copy; ООО &quot;Элмис&quot;, 2001<br>
+	Интернациональная 10, Гомель, 246640, Беларусь<br>
+	Телефон/факс: +375 (232) 534 270, 533 769</div>
+	</td>
+	<td align="right" valign="top">
+	<div class="footer"><a href="index.php" style="color:#ffffff">Начало</a> | <a href="order.php" style="color:#ffffff">Заказ</a> | <a href="search.php" style="color:#ffffff">Поиск</a> | <a href="help.php" style="color:#ffffff">Помощь</a><br>
+	<a href="prod.php" style="color:#ffffff">Продукция</a> | <a href="serv.php" style="color:#ffffff">Услуги</a> | <a href="supp.php" style="color:#ffffff">Поддержка</a> | <a href="comp.php" style="color:#ffffff">О компании</a>
+	<div style="margin-top:5px">designed by <a href="http://desight.com" style="color:#ffffff">Desight</a></div></div>
+	</td>
+</tr>
+</table>
+</td></tr></table>
+
+<map name="menu0map"><area shape="rect" coords="2,0,112,21" href="prod.php" onmouseover="clearmenus();change('imgmenu0','nav_prd',1)" onmouseout="if(!isFour) clearmenus();"></map>
+<map name="menu1map"><area shape="rect" coords="2,0,86,21" href="serv.php" onmouseover="clearmenus();change('imgmenu1','nav_srv',1)" onmouseout="if(!isFour) clearmenus();"></map>
+<map name="menu2map"><area shape="rect" coords="2,0,114,21" href="supp.php" onmouseover="clearmenus();change('imgmenu2','nav_sup',1)" onmouseout="if(!isFour) clearmenus();"></map>
+<map name="menu3map"><area shape="rect" coords="2,0,115,21" href="comp.php" onmouseover="clearmenus();change('imgmenu3','nav_com',1)" onmouseout="if(!isFour) clearmenus();"></map>
+
+<noscript><table border="0" height="1" width="1"><tr><td></noscript>
+
+<div id="menu0"><a href="prod.php" onmouseout="clearmenus()"><img src="art/drop-products.gif" width="200" height="120" border="0" alt="Продукция"></a></div>
+<div id="menu0overs">
+<a href="prod.01.php" onmouseover="imagerep('pr1', 'menu0overs')" onmouseout="eraseimage('pr1', 'menu0overs')"><img
+	src="art/dot.gif" alt="Металлорежущие станки и КПО" border="0" height="15" hspace="0" name="pr1" vspace="0" width="200" class="menu"><br></a>
+<a href="prod.03.php" onmouseover="imagerep('pr2', 'menu0overs')" onmouseout="eraseimage('pr2', 'menu0overs')"><img
+	src="art/dot.gif" alt="Современные системы ЧПУ" border="0" height="15" hspace="0" name="pr2" vspace="0" width="200" class="menu"><br></a>
+<a href="prod.04.php" onmouseover="imagerep('pr3', 'menu0overs')" onmouseout="eraseimage('pr3', 'menu0overs')"><img
+	src="art/dot.gif" alt="Комплектные электроприводы" border="0" height="15" hspace="0" name="pr3" vspace="0" width="200" class="menu"><br></a>
+<a href="prod.05.php" onmouseover="imagerep('pr4', 'menu0overs')" onmouseout="eraseimage('pr4', 'menu0overs')"><img
+	src="art/dot.gif" alt="Измерительные преобразователи" border="0" height="15" hspace="0" name="pr4" vspace="0" width="200" class="menu"><br></a>
+<a href="prod.06.php" onmouseover="imagerep('pr5', 'menu0overs')" onmouseout="eraseimage('pr5', 'menu0overs')"><img
+	src="art/dot.gif" alt="Плата памяти для УЧПУ 2С42/2Р22" border="0" height="15" hspace="0" name="pr5" vspace="0" width="200" class="menu"><br></a>
+<a href="comp.09.08.php" onmouseover="imagerep('pr6', 'menu0overs')" onmouseout="eraseimage('pr6', 'menu0overs')"><img
+	src="art/dot.gif" alt="Устройство МУНИП" border="0" height="15" hspace="0" name="pr6" vspace="0" width="200" class="menu"><br></a>
+<a href="prod.07.php" onmouseover="imagerep('pr7', 'menu0overs')" onmouseout="eraseimage('pr7', 'menu0overs')"><img
+	src="art/dot.gif" alt="Программный пакет Nefila" border="0" height="15" hspace="0" name="pr7" vspace="0" width="200" class="menu"><br></a>
+<a href="prod.09.php" onmouseover="imagerep('pr8', 'menu0overs')" onmouseout="eraseimage('pr8', 'menu0overs')"><img
+	src="art/dot.gif" alt="Контроллер для вашего станка" border="0" height="15" hspace="0" name="pr8" vspace="0" width="200" class="menu"><br></a>
+</div>
+
+<div id="menu1"><a href="serv.php" onmouseout="clearmenus()"><img src="art/drop-services.gif" width="170" height="120" border="0" alt="Услуги"></a></div>
+<div id="menu1overs">
+<a href="serv.01.php" onmouseover="imagerep('se1', 'menu1overs')" onmouseout="eraseimage('se1', 'menu1overs')"><img
+	src="art/dot.gif" alt="Поставка оборудования" border="0" height="15" hspace="0" name="se1" vspace="0" width="170" class="menu"><br></a>
+<a href="serv.02.php" onmouseover="imagerep('se2', 'menu1overs')" onmouseout="eraseimage('se2', 'menu1overs')"><img
+	src="art/dot.gif" alt="Модернизация и ремонт" border="0" height="15" hspace="0" name="se2" vspace="0" width="170" class="menu"><br></a>
+<a href="serv.07.php" onmouseover="imagerep('se3', 'menu1overs')" onmouseout="eraseimage('se3', 'menu1overs')"><img
+	src="art/dot.gif" alt="Комплектация станков с ЧПУ" border="0" height="15" hspace="0" name="se3" vspace="0" width="170" class="menu"><br></a>
+<a href="serv.03.php" onmouseover="imagerep('se4', 'menu1overs')" onmouseout="eraseimage('se4', 'menu1overs')"><img
+	src="art/dot.gif" alt="Автоматизация производства" border="0" height="15" hspace="0" name="se4" vspace="0" width="170" class="menu"><br></a>
+<a href="serv.08.php" onmouseover="imagerep('se5', 'menu1overs')" onmouseout="eraseimage('se5', 'menu1overs')"><img
+	src="art/dot.gif" alt="Разработка и внедрение ПМО" border="0" height="15" hspace="0" name="se5" vspace="0" width="170" class="menu"><br></a>
+<a href="serv.04.php" onmouseover="imagerep('se6', 'menu1overs')" onmouseout="eraseimage('se6', 'menu1overs')"><img
+	src="art/dot.gif" alt="Экспертиза и диагностика" border="0" height="15" hspace="0" name="se6" vspace="0" width="170" class="menu"><br></a>
+<a href="serv.05.php" onmouseover="imagerep('se7', 'menu1overs')" onmouseout="eraseimage('se7', 'menu1overs')"><img
+	src="art/dot.gif" alt="Монтаж и пусконаладка" border="0" height="15" hspace="0" name="se7" vspace="0" width="170" class="menu"><br></a>
+<a href="serv.06.php" onmouseover="imagerep('se8', 'menu1overs')" onmouseout="eraseimage('se8', 'menu1overs')"><img
+	src="art/dot.gif" alt="Обучение специалистов" border="0" height="15" hspace="0" name="se8" vspace="0" width="170" class="menu"><br></a>
+</div>
+
+<div id="menu2"><a href="supp.php" onmouseout="clearmenus()"><img src="art/drop-support.gif" width="130" height="60" border="0" alt="Поддержка"></a></div>
+<div id="menu2overs">
+<a href="supp.04.php" onmouseover="imagerep('su1', 'menu2overs')" onmouseout="eraseimage('su1', 'menu2overs')"><img
+	src="art/dot.gif" alt="Новости и статьи" border="0" height="15" hspace="0" name="su1" vspace="0" width="130" class="menu"><br></a>
+<a href="supp.01.php" onmouseover="imagerep('su2', 'menu2overs')" onmouseout="eraseimage('su2', 'menu2overs')"><img
+	src="art/dot.gif" alt="Советы эксперта" border="0" height="15" hspace="0" name="su2" vspace="0" width="130" class="menu"><br></a>
+<a href="supp.02.php" onmouseover="imagerep('su3', 'menu2overs')" onmouseout="eraseimage('su3', 'menu2overs')"><img
+	src="art/dot.gif" alt="Вопросы и ответы" border="0" height="15" hspace="0" name="su3" vspace="0" width="130" class="menu"><br></a>
+<a href="supp.03.php" onmouseover="imagerep('su4', 'menu2overs')" onmouseout="eraseimage('su4', 'menu2overs')"><img
+	src="art/dot.gif" alt="Файловый архив" border="0" height="15" hspace="0" name="su4" vspace="0" width="130" class="menu"><br></a>
+</div>
+
+<div id="menu3"><a href="comp.php" onmouseout="clearmenus()"><img src="art/drop-company.gif" width="118" height="135" border="0" alt="О компании"></a></div>
+<div id="menu3overs">
+<a href="comp.02.php" onmouseover="imagerep('co1', 'menu3overs')" onmouseout="eraseimage('co1', 'menu3overs')"><img
+	src="art/dot.gif" alt="История" border="0" height="15" hspace="0" name="co1" vspace="0"
+	width="118" class="menu"><br></a>
+<a href="comp.01.php" onmouseover="imagerep('co2', 'menu3overs')" onmouseout="eraseimage('co2', 'menu3overs')"><img
+	src="art/dot.gif" alt="Цели и планы" border="0" height="15" hspace="0" name="co2" vspace="0"
+	width="118" class="menu"><br></a>
+<a href="comp.03.php" onmouseover="imagerep('co3', 'menu3overs')" onmouseout="eraseimage('co3', 'menu3overs')"><img
+	src="art/dot.gif" alt="Структура" border="0" height="15" hspace="0" name="co3" vspace="0"
+	width="118" class="menu"><br></a>
+<a href="comp.04.php" onmouseover="imagerep('co4', 'menu3overs')" onmouseout="eraseimage('co4', 'menu3overs')"><img
+	src="art/dot.gif" alt="Сотрудники" border="0" height="15" hspace="0" name="co4" vspace="0"
+	width="118" class="menu"><br></a>
+<a href="comp.07.php" onmouseover="imagerep('co5', 'menu3overs')" onmouseout="eraseimage('co5', 'menu3overs')"><img
+	src="art/dot.gif" alt="Партнеры" border="0" height="15" hspace="0" name="co5" vspace="0"
+	width="118" class="menu"><br></a>
+<a href="comp.08.php" onmouseover="imagerep('co6', 'menu3overs')" onmouseout="eraseimage('co6', 'menu3overs')"><img
+	src="art/dot.gif" alt="Заказчики" border="0" height="15" hspace="0" name="co6" vspace="0"
+	width="118" class="menu"><br></a>
+<a href="comp.06.php" onmouseover="imagerep('co7', 'menu3overs')" onmouseout="eraseimage('co7', 'menu3overs')"><img
+	src="art/dot.gif" alt="Сертификаты" border="0" height="15" hspace="0" name="co7" vspace="0"
+	width="118" class="menu"><br></a>
+<a href="comp.12.php" onmouseover="imagerep('co8', 'menu3overs')" onmouseout="eraseimage('co8', 'menu3overs')"><img
+	src="art/dot.gif" alt="Контакты" border="0" height="15" hspace="0" name="co8" vspace="0"
+	width="118" class="menu"><br></a>
+<a href="comp.09.php" onmouseover="imagerep('co9', 'menu3overs')" onmouseout="eraseimage('co9', 'menu3overs')"><img
+	src="art/dot.gif" alt="Наши работы" border="0" height="15" hspace="0" name="co9" vspace="0"
+	width="118" class="menu"><br></a>
+</div>
+
+<noscript></td></tr></noscript>
+
+</body>
+</html>
+
+

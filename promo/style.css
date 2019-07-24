@@ -1,0 +1,51 @@
+body {
+	margin: 0px 0px 0px 0px;
+}
+
+body, table.bottomline {
+	background-color: rgb(255, 241, 214);
+}
+
+body, table, p, .footxt a {
+	font-family: Verdana;
+	font-size: 7.5pt;
+}
+
+table.head { background-image: url(img/bg-head-home.gif); }
+table.bottomline {
+	background-image: url(img/bg-icons-home.gif);
+	background-repeat: repeat-x;
+}
+
+a {
+	color: rgb(140, 48, 33);
+	text-decoration: none;
+}
+
+a:hover { text-decoration: underline; }
+.bookmark {
+	background-image: url(img/bg-iconsbookmark-home.gif);
+	background-repeat: no-repeat;
+	height: 157px;
+	vertical-align: top;
+}
+
+.footxt {
+	vertical-align: top;
+	padding: 9px 19px 33px 19px;
+	border-left: 1px solid rgb(245,220,171);
+}
+
+.footxt a { 
+	color: rgb(151,128,83);
+}
+
+.footer {
+	background-color: rgb(140, 48, 33);
+}
+
+.footer, .footer a {
+	font-family: tahoma;
+	font-size: 8pt;
+	color: rgb(245, 220, 171);
+}

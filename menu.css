@@ -1,0 +1,192 @@
+A:link {
+	FONT-WEIGHT: bold; COLOR: #369
+}
+A.buylink:link {
+	FONT-WEIGHT: bold; COLOR: #063
+}
+A.promolink:link {
+	FONT-WEIGHT: bold; COLOR: #f90
+}
+A {
+	FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A:unknown {
+	COLOR: #f90; TEXT-DECORATION: underline
+}
+A.buylink:unknown {
+	FONT-WEIGHT: bold; COLOR: #f90; TEXT-DECORATION: underline
+}
+A.promolink:unknown {
+	FONT-WEIGHT: bold; COLOR: #369; TEXT-DECORATION: underline
+}
+A:unknown {
+	FONT-WEIGHT: bold; COLOR: #69c; TEXT-DECORATION: none
+}
+A.buylink:unknown {
+	FONT-WEIGHT: bold; COLOR: #063; TEXT-DECORATION: none
+}
+A.promolink:unknown {
+	FONT-WEIGHT: bold; COLOR: #f90; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #f90; TEXT-DECORATION: underline
+}
+A.buylink:hover {
+	COLOR: #f90; TEXT-DECORATION: underline
+}
+A.promolink:hover {
+	COLOR: #369; TEXT-DECORATION: underline
+}
+#formbox {
+	FONT-SIZE: 10px; FONT-FAMILY: verdana
+}
+#formmenu {
+	FONT-SIZE: 10px; FONT-FAMILY: verdana
+}
+BODY {
+	FONT-SIZE: 11px; BACKGROUND: url(/images/shared/bkgrnd_orb_1600.gif) white no-repeat; FONT-FAMILY: verdana, arial, helvetica
+}
+STRONG {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; FONT-FAMILY: verdana, arial, helvetica
+}
+TD {
+	FONT-SIZE: 11px; COLOR: #333; FONT-FAMILY: verdana, arial, helvetica
+}
+INPUT {
+	FONT-SIZE: 11px; COLOR: #333; FONT-FAMILY: verdana, arial, helvetica; LETTER-SPACING: -1px
+}
+SELECT {
+	FONT-SIZE: 11px; COLOR: #333; FONT-FAMILY: verdana, arial, helvetica; LETTER-SPACING: -1px
+}
+.buylink {
+	FONT-WEIGHT: bold; COLOR: #063
+}
+.backorder {
+	FONT-WEIGHT: bold; COLOR: #900
+}
+.subnav {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #69c; FONT-FAMILY: verdana, arial, helvetica; TEXT-DECORATION: none
+}
+.backnav {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #999; FONT-FAMILY: verdana, arial, helvetica; TEXT-DECORATION: none
+}
+.smalltext {
+	FONT-SIZE: 10px; FONT-FAMILY: verdana, arial, helvetica
+}
+.default {
+	FONT-SIZE: 11px; FONT-FAMILY: verdana, arial, helvetica; TEXT-ALIGN: left
+}
+.nsmenu {
+	FONT-SIZE: 11px; FONT-FAMILY: verdana, arial, helvetica
+}
+.buytext {
+	COLOR: #063; FONT-FAMILY: verdana, arial, helvetica
+}
+.onefortyldg {
+	LINE-HEIGHT: 200%
+}
+DIV.onefiftyldg {
+	LINE-HEIGHT: 150%
+}
+.tablehdg {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #666; FONT-FAMILY: verdana, arial, helvetica
+}
+.tablehdgred {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #900; FONT-FAMILY: verdana, arial, helvetica
+}
+.stdhdg {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #666; FONT-FAMILY: verdana, arial, helvetica
+}
+.stdhdglink {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; FONT-FAMILY: verdana, arial, helvetica
+}
+.stdhdggrey {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; FONT-FAMILY: verdana, arial, helvetica
+}
+.stdhdgwhite {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #fff; FONT-FAMILY: verdana, arial, helvetica
+}
+.stdhdgred {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #900; FONT-FAMILY: verdana, arial, helvetica
+}
+.subhdg {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; FONT-FAMILY: verdana, arial, helvetica
+}
+.subhdglink {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; FONT-FAMILY: verdana, arial, helvetica
+}
+.subhdgblue {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #666; FONT-FAMILY: verdana, arial, helvetica
+}
+.subhdgred {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #900; FONT-FAMILY: verdana, arial, helvetica
+}
+.largehdg {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; FONT-FAMILY: verdana, arial, helvetica
+}
+.largehdglink {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; FONT-FAMILY: verdana, arial, helvetica
+}
+.largehdgblue {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #666; FONT-FAMILY: verdana, arial, helvetica
+}
+.largehdgred {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #900; FONT-FAMILY: verdana, arial, helvetica
+}
+.footer {
+	FONT-SIZE: 10px; LINE-HEIGHT: 175%; FONT-FAMILY: arial, helvetica
+}
+.footerhidden {
+	FONT-SIZE: 10px; COLOR: #fff; LINE-HEIGHT: 175%; FONT-FAMILY: arial, helvetica; TEXT-DECORATION: none
+}
+.smallprint {
+	FONT-SIZE: 10px; FONT-FAMILY: arial, helvetica
+}
+.footnote {
+	FONT-SIZE: 8px; VERTICAL-ALIGN: text-top; FONT-FAMILY: arial, helvetica
+}
+.ltblue {
+	COLOR: #69c
+}
+.dkblue {
+	COLOR: #666
+}
+.mdblue {
+	COLOR: #369
+}
+#underline {
+	TEXT-DECORATION: underline
+}
+#noline {
+	TEXT-DECORATION: none
+}
+.white {
+	COLOR: white
+}
+.red {
+	COLOR: #900
+}
+.highlightsm {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #900
+}
+.highlight {
+	FONT-WEIGHT: bold; COLOR: #900
+}
+.highlightlg {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #900
+}
+.yellow {
+	COLOR: #f90
+}
+.green {
+	COLOR: #063
+}
+.grey {
+	COLOR: #333
+}
+.plain {
+	FONT-WEIGHT: normal; FONT-STYLE: normal; TEXT-DECORATION: none
+}
+.modelquote {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #69c
+}
