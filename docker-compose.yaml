@@ -1,0 +1,35 @@
+services:
+  web:
+    build:
+      context: ./www
+      dockerfile: Dockerfile
+      args:
+        - --no-cache
+    container_name: website
+    image: www:latest
+    ports:
+      - "0.0.0.0:8081:80"
+
+  www1:
+    build:
+      context: ./www1
+      dockerfile: Dockerfile
+      args:
+        - --no-cache
+
+    container_name: www1
+    image: www1:latest
+    ports:
+      - "0.0.0.0:8082:80"
+
+  www2:
+    build:
+      context: ./www2
+      dockerfile: Dockerfile
+      args:
+        - --no-cache
+
+    container_name: www2
+    image: www2:latest
+    ports:
+      - "0.0.0.0:8083:80"
